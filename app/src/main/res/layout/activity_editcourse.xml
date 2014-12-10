@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84fff717"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select which course to edit or remove"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/introEdit"
+        android:layout_weight="0.00" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editSpinner"
+        android:layout_weight="0.22" />
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="133dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Office Hours"
+        android:id="@+id/editHours"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Course"
+        android:id="@+id/removeCourse"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancelEdit"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

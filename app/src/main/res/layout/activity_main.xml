@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/findCourse"
+        android:background="#ffca1a1a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.5"
+        android:text="Find Course" />
+
+    <Button
+        android:id="@+id/addCourse"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#fffff8f9"
+        android:layout_below="@+id/findCourse"
+        android:layout_centerHorizontal="true"
+        android:text="Add Course" />
+
+    <Button
+        android:id="@+id/chooseEditCourse"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#fffff717"
+        android:layout_below="@+id/addCourse"
+        android:layout_centerHorizontal="true"
+        android:text="Edit Course" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#ff000000"
+        android:textColor="#fffff9f8"
+        android:layout_below="@+id/addCourse"
+        android:layout_alignParentTop="true"
+        android:text="Exit" />
+
+</LinearLayout>

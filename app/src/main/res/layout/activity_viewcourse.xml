@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Professor "
+        android:textStyle="bold"
+        android:id="@+id/profTitle"
+        android:layout_gravity="center_horizontal" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Course: "
+        android:id="@+id/viewTitle" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Days: "
+        android:id="@+id/viewDays" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time: "
+        android:id="@+id/viewTime" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Courses"
+        android:id="@+id/btnleaveView"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jon.malar.OfficeHoursUMBC" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="jon.malar.OfficeHoursUMBC.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="jon.malar.OfficeHoursUMBC.findCourse"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="jon.malar.OfficeHoursUMBC.addCourse"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="jon.malar.OfficeHoursUMBC.viewCourse"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="jon.malar.OfficeHoursUMBC.editCourse"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="jon.malar.OfficeHoursUMBC.editingPage"
+            android:label="@string/app_name" >
+        </activity>
+
+    </application>
+
+</manifest>
